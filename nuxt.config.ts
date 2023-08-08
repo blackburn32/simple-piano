@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   app: {
+    baseURL: '/simple-piano/',
     head: {
       title: 'Nuxt Piano',
       meta: [
@@ -9,7 +10,7 @@ export default defineNuxtConfig({
         {
           rel: 'icon',
           type: 'image/svg+xml',
-          href: '/favicon.svg',
+          href: '/simple-piano/favicon.svg',
         },
       ],
     },
@@ -20,5 +21,6 @@ export default defineNuxtConfig({
     sounds: {
       scan: true
     }
-  }
+  },
+  ssr: false,
 })

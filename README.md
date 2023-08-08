@@ -1,5 +1,7 @@
 # Simple Piano
 
+This is a simple piano application built with Nuxt 3 and vueuse/sound.
+
 ## Setup
 
 Install the dependencies:
@@ -16,10 +18,10 @@ Start the development server on `http://localhost:3000`:
 /simple-piano$ npm run dev
 ```
 
-## Production
+## Deploy
 
-Build the application for production:
+Deploy to GitHub Pages:
 
 ```bash
-/simple-piano$ npm run build
+/simple-piano$ npm run generate
 ```
