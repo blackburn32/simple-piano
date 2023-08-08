@@ -2,6 +2,8 @@
 
 This is a simple piano application built with Nuxt 3 and vueuse/sound.
 
+You can demo the application [here](https://blackburn32.github.io/simple-piano/).
+
 ## Setup
 
 Install the dependencies:
